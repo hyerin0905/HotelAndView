@@ -1,8 +1,9 @@
 package hotelandview.mapper;
 
-import org.apache.ibatis.annotations.Mapper;
+import hotelandview.dto.UserDto;
 
-@Mapper
 public interface HotelAndViewMapper {
+
+	
 
 }

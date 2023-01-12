@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>회원가입</title>
+	<link rel="stylesheet" th:href="@{/css/user.css}" />
+</head>
+<body>
+	<div class="container">
+		<h2>HotelAndView</h2>
+		<form action="insertUser" method="POST" id="frm" name="frm">
+				<tr>
+					<td>이름</td>
+					<td><input type="text" id="title" name="userName"/></td>
+				</tr>
+				<tr>
+					<td>ID</td>
+					<td><input type="text" id="title" name="userid"/></td>
+				</tr>
+					<tr>
+					<td>password</td>
+					<td><input type="text" id="title" name="userPassword"/></td>
+				</tr>
+				<tr>
+					<td>email</td>
+					<td><input type="text" id="title" name="userEmail"/></td>
+				</tr>
+				
+				
+				
+				
+<!-- 				<tr> -->
+<!-- 					<td colspan="4"><textarea id="contents" name="contents"></textarea></td> -->
+<!-- 				</tr> -->
+			</table>
+			<input type="submit" id="submit" value="회원가입하기" class="btn" />
+		</form>		
+	</div>
+</body>
+</html>
